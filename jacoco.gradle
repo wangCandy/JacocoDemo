@@ -1,0 +1,11 @@
+
+apply plugin: 'jacoco'
+
+android {
+    buildTypes {
+        debug {
+            minifyEnabled false
+            testCoverageEnabled = true
+        }
+    }
+}

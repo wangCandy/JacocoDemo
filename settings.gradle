@@ -1,0 +1,3 @@
+rootProject.name='JacocoDemo'
+include ':app'
+include ':secondlib'
